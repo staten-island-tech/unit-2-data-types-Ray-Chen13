@@ -45,8 +45,8 @@ count = len(words)
 print(count) """
 
 #Mad Lib Project:
-verb1 = input("")
-verb2 = input("")
-noun = input("")
-number = input("")
-celebrity = input("")
+verb1 = input("enter verb1:")
+verb2 = input("enter verb2:")
+noun = input("enter a noun:")
+number = input("enter a number:")
+celebrity = input("enter a celebrity:")
