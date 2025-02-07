@@ -19,7 +19,7 @@ z = y[0]
 print(y)
 print(z) """
 
-""" day_of_week = input("what day is it")
+""" day_of_week = input("what day is it?")
 if day_of_week == "Friday":
     print("correct")
 else:
@@ -44,9 +44,37 @@ words = sentence.split()
 count = len(words)
 print(count) """
 
-#Mad Lib Project:
-verb1 = input("enter verb1:")
-verb2 = input("enter verb2:")
-noun = input("enter a noun:")
-number = input("enter a number:")
-celebrity = input("enter a celebrity:")
+#Madlib Project:
+""" a = input("enter verb1:")
+b = input("enter verb2:")
+c = input("enter noun1:")
+d = input("enter noun2:")
+e = input("enter a number:")
+f = input("enter a celebrity:")
+g = input("enter noun3:")
+
+Madlib = print(f"As {c} was {a} to {d}, he saw {f}, {b} at {g} and asked to them to pick a number and {f} picked {e}, afterwards they went their own separate way")
+print(Madlib) """
+
+#Challenge 2:
+
+number = input("Enter a Number:")
+
+#Notes:
+""" def login(password):
+    #if state evaluates to true do next line
+    if password == "secret":
+        print("logged in")
+    else:
+        print("incorrect password")
+login("secret") """
+
+def temp(x)
+    if x >=80:
+        print("too hot")
+    elif x > 60:
+        print("nice")
+    else:
+        print("too cold")
+x = int(input("what da temp"))
+temp(x)
