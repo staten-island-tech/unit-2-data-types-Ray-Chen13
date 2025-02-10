@@ -58,7 +58,14 @@ print(Madlib) """
 
 #Challenge 2:
 
-number = input("Enter a Number:")
+""" import math
+x = int(input("Enter a Number:"))
+y = math.gcd(x,2)
+
+if y ==2:
+    print("Even")
+else:
+    print("Odd") """
 
 #Notes:
 """ def login(password):
@@ -69,7 +76,7 @@ number = input("Enter a Number:")
         print("incorrect password")
 login("secret") """
 
-def temp(x)
+""" def temp(x):
     if x >=80:
         print("too hot")
     elif x > 60:
@@ -77,4 +84,23 @@ def temp(x)
     else:
         print("too cold")
 x = int(input("what da temp"))
-temp(x)
+temp(x) """
+
+#use modeulo to check remainder for 1 factor
+#use a loop to check all potential factors range(2,15)
+#conditional statement if factor  append to list
+#print the list
+
+a = float(input("Enter a Bill: "))
+b = int(input("Select a Tip of 0, 15, 20, or 25: "))
+def tip(b):
+    if b ==0:
+        print("Bad Service")
+    elif b ==15:
+        print("Okay Service")
+    elif b ==20:
+        print("Good Service")
+    elif b ==25:
+        print("Great Service")
+    else:
+        print("Not an Option")
