@@ -91,16 +91,38 @@ temp(x) """
 #conditional statement if factor  append to list
 #print the list
 
-a = float(input("Enter a Bill: "))
-b = int(input("Select a Tip of 0, 15, 20, or 25: "))
-def tip(b):
-    if b ==0:
-        print("Bad Service")
-    elif b ==15:
-        print("Okay Service")
-    elif b ==20:
-        print("Good Service")
-    elif b ==25:
-        print("Great Service")
-    else:
-        print("Not an Option")
+""" import math
+a = int(input("Enter a Bill: "))
+b = input("Was the service bad, okay, good, or great?")
+
+if b =="bad":
+        print(a)
+elif b =="okay":
+        print(a*1.15)
+elif b =="good":
+        print(a*1.2)
+elif b =="great":
+        print(a*1.25)
+else:
+        print("Not an Option") """
+
+#Challenge 4:
+
+import math
+x = int(input("Enter a Number:"))
+
+for factors in range(2,x+1):
+    if x % factors ==0:
+        print(factors)
+
+#Gambling Code
+""" isRich = True
+is21 = True 
+
+def canGamble(isRich, is21):
+    if isRich == True and is21 == True:
+        print("Let it Ride!")
+    elif isRich == False and is21 == True:
+        print("You're too poor, get out!")
+    elif isRich == False or is21 == False:
+        print("You cannot Play!") """
