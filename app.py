@@ -108,12 +108,12 @@ else:
 
 #Challenge 4:
 
-import math
+""" import math
 x = int(input("Enter a Number:"))
 
 for factors in range(2,x+1):
     if x % factors ==0:
-        print(factors)
+        print(factors) """
 
 #Gambling Code
 """ isRich = True
@@ -126,3 +126,13 @@ def canGamble(isRich, is21):
         print("You're too poor, get out!")
     elif isRich == False or is21 == False:
         print("You cannot Play!") """
+
+#Challenge 5:
+import math
+a = int(input("Enter a Number:"))
+b = int(input("Enter another Number:"))
+c = 1
+for factors in range (1, min(a, b)+1):
+    if a % factors ==0 and b % factors ==0:
+        c = factors
+print(c)
