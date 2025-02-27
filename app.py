@@ -58,9 +58,8 @@ print(Madlib) """
 
 #Challenge 2:
 
-""" import math
-x = int(input("Enter a Number:"))
-y = math.gcd(x,2)
+""" x = int(input("Enter a Number:"))
+y = x % 2
 
 if y ==2:
     print("Even")
