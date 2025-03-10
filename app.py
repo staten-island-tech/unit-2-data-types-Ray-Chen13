@@ -127,10 +127,10 @@ def canGamble(isRich, is21):
         print("You cannot Play!") """
 
 #Challenge 5:
-import math
+
 a = int(input("Enter a Number:"))
 b = int(input("Enter another Number:"))
-c = 1
+
 for factors in range (1, min(a, b)+1):
     if a % factors ==0 and b % factors ==0:
         c = factors
